@@ -18,13 +18,13 @@ This repository contains the [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/) imp
 The **Jittor** implementation of SPD on different tasks. Compared to the PyTorch implementation, the Jittor version has higher training speed (green denotes faster training speed on the same experiemntal settings):
 | task        |  dataset | PyTorch | Jittor |
 | ----------- | -------------- | ------------ | ------------ |
-| Completion  | PCN | 10min 41s | 	$\textbf{\color\color{YellowGreen}9min 46s}$ |
-| Completion  | Completion3D | 6min 0s  | $\textbf{\color\color{YellowGreen}4min 50s}$ |
-| Completion  | ShapeNet-34/21 | 3min 35s | $\textbf{\color\color{YellowGreen}3min 29s}$  |
-| AE          | ShapeNet | 1min 6s | $\textbf{\color\color{YellowGreen}56s}$  |
-| VAE         | ShapeNet | 1min 9s | $\textbf{\color\color{YellowGreen}57s}$  |
-| Up-sampling | PUGAN    | 2min 34s | $\textbf{\color\color{YellowGreen}2min 2s}$  |
-| SVR | ShapeNet | 27s | $\textbf{\color\color{YellowGreen}23s}$  | 
+| Completion  | PCN | 10min 41s | 	$\textbf{\color{YellowGreen}9min 46s}$ |
+| Completion  | Completion3D | 6min 0s  | $\textbf{\color{YellowGreen}4min 50s}$ |
+| Completion  | ShapeNet-34/21 | 3min 35s | $\textbf{\color{YellowGreen}3min 29s}$  |
+| AE          | ShapeNet | 1min 6s | $\textbf{\color{YellowGreen}56s}$  |
+| VAE         | ShapeNet | 1min 9s | $\textbf{\color{YellowGreen}57s}$  |
+| Up-sampling | PUGAN    | 2min 34s | $\textbf{\color{YellowGreen}2min 2s}$  |
+| SVR | ShapeNet | 27s | $\textbf{\color{YellowGreen}23s}$  | 
 
 
 [ [SnowflakeNet](https://openaccess.thecvf.com/content/ICCV2021/html/Xiang_SnowflakeNet_Point_Cloud_Completion_by_Snowflake_Point_Deconvolution_With_Skip-Transformer_ICCV_2021_paper.html) | [SPD](https://arxiv.org/abs/2202.09367) | [IEEE Xplore](https://ieeexplore.ieee.org/document/9928787) | [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/) ] 
