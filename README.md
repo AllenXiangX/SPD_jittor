@@ -15,7 +15,7 @@ This repository contains the [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/) imp
 **2. SnowflakeNet: Point Cloud Completion by Snowflake Point Deconvolution with Skip-Transformer (ICCV 2021, Oral)**
 
 
-The **Jittor** implementation of SPD on different tasks. Compared to the PyTorch implementation, the Jittor version has higher training speed (green denotes faster training speed on the same experiemntal settings):
+The **Jittor** implementation of SPD on different tasks. Compared to the PyTorch implementation, the Jittor version has higher training speed (green denotes faster training speed under the same experiemntal settings):
 | task        |  dataset | PyTorch | Jittor |
 | ----------- | -------------- | ------------ | ------------ |
 | Completion  | PCN | 10min 41s | 	$\textbf{\color{YellowGreen}9min 46s}$ |
