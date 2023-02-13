@@ -18,7 +18,7 @@ This repository contains the [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/) imp
 The **Jittor** implementation of SPD on different tasks. Compared to the PyTorch implementation, the Jittor version has higher training speed (green denotes faster training speed on the same experiemntal settings):
 | task        |  dataset | PyTorch | Jittor |
 | ----------- | -------------- | ------------ | ------------ |
-| Completion  | PCN | 10min 41s | <font color=#8bc24c>9min 46s</font> |
+| Completion  | PCN | 10min 41s | 	$\color{YellowGreen}9min 46s |
 | Completion  | Completion3D | 6min 0s  | <font color=#8bc24c>4min 50s</font> |
 | Completion  | ShapeNet-34/21 | 3min 35s | <span style="color: #8bc24c">3min 29s</span>  |
 | AE          | ShapeNet | 1min 6s | <span style="color: #8bc24c">56s</span>  |
