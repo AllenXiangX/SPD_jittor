@@ -18,8 +18,8 @@ This repository contains the [Jittor](https://cg.cs.tsinghua.edu.cn/jittor/) imp
 The **Jittor** implementation of SPD on different tasks. Compared to the PyTorch implementation, the Jittor version has higher training speed (green denotes faster training speed on the same experiemntal settings):
 | task        |  dataset | PyTorch | Jittor |
 | ----------- | -------------- | ------------ | ------------ |
-| Completion  | PCN | 10min 41s | <span style="color: #8bc24c">9min 46s</span> |
-| Completion  | Completion3D | 6min 0s  | <span style="color: #8bc24c">4min 50s</span> |
+| Completion  | PCN | 10min 41s | <font color=#8bc24c>9min 46s</font> |
+| Completion  | Completion3D | 6min 0s  | <font color=#8bc24c>4min 50s</font> |
 | Completion  | ShapeNet-34/21 | 3min 35s | <span style="color: #8bc24c">3min 29s</span>  |
 | AE          | ShapeNet | 1min 6s | <span style="color: #8bc24c">56s</span>  |
 | VAE         | ShapeNet | 1min 9s | <span style="color: #8bc24c">57s</span>  |
@@ -65,7 +65,7 @@ SPD is a general operation that is not limited to completion, we explore its app
 
 ```bash
 # python environment
-$ cd SPD_jittor
+$ cd SnowflakeNet
 $ conda create -n spd_jittor python=3.7
 $ conda activate spd_jittor
 $ pip3 install -r requirements.txt
