@@ -65,7 +65,7 @@ SPD is a general operation that is not limited to completion, we explore its app
 
 ```bash
 # python environment
-$ cd SnowflakeNet
+$ cd SPD_jittor
 $ conda create -n spd_jittor python=3.7
 $ conda activate spd_jittor
 $ pip3 install -r requirements.txt
