@@ -18,7 +18,7 @@ We use the [PCN](https://www.shapenet.org/), [ShapeNet-34/21](https://github.com
 
 ## Getting Started
 
-To use our code, make sure that the environment and PyTorch extensions are installed according to the instructions in the [main page](https://github.com/AllenXiangX/SPD_jittor). Then modify the dataset path in the [configuration files](https://github.com/AllenXiangX/SPD_jittor/tree/main/completion/configs).
+To use our code, make sure that the environment is installed according to the instructions in the [main page](https://github.com/AllenXiangX/SPD_jittor). Then modify the dataset path in the [configuration files](https://github.com/AllenXiangX/SPD_jittor/tree/main/completion/configs).
 
 
 ## Training
